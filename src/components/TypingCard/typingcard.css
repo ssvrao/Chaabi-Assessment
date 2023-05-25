@@ -1,0 +1,77 @@
+.card-container{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #f0e9e9;
+     
+     
+    box-shadow: 0 0 10px 2px #3c3b3b; 
+}
+.count-down{
+    height: 35px;
+  width: 120px;
+  border-radius: 15px;
+  background-color: rgb(223, 55, 223);
+  margin-bottom:10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.timer{
+    color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size:18px; 
+}
+.text-area{
+ width: 98%;
+  height:30%;
+   
+  border-radius: 15px;
+  margin-top: 2rem;
+  border: none;
+outline: none;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  padding: 10px 1rem;
+  resize: none;
+  line-height: 1.5rem;
+
+  
+}
+.inner {
+    padding: 30px;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+.content{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(56, 74, 204);
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 600;
+  
+    
+  
+    
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(229, 136, 22);
+}

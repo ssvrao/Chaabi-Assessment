@@ -1,0 +1,14 @@
+.main-container{
+    padding: 1.2rem;
+    max-height: 50%;
+    width: 100%;
+    padding: 10px;
+    color: rgb(249, 246, 246);
+    font-family: sans-serif;
+    background-color: #5c1d9b;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgba(154, 129, 225, 0.8);
+     
+    
+}
+ 
